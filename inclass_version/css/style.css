@@ -1,0 +1,81 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(254, 218, 239);
+}
+h1 {
+    margin-bottom: 20px; 
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+h2 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+p {
+    margin-bottom: 10px;
+    font-size: 13px;
+    line-height: 25px;
+}
+strong {
+    font-weight: bold;
+}
+/* This means I am selecting only li tags
+   that are children of ul tags */
+ul li {
+    line-height: 25px;
+}
+nav {
+    position: relative;
+    width: 100%;
+    background-color: #CCC;
+}
+.nav-item {
+    display: inline-block;
+    background-color: #CCC;
+    border-right: 2px solid black;
+    padding: 20px 20px 20px 20px;
+}
+
+aside {
+    float: left;
+    width: 25%;
+    height: 100%;
+    padding: 20px 20px 20px 20px;
+    margin-top: 50px;    
+}
+#sidebar-top {
+    margin-bottom: 20px;
+    text-align: center;
+}
+/* This means I am selecting all img tags with the ID of sidebar-flag
+   and only img tags. So if I have a <div id="sidebar-flag"> it wouldn't
+   be modified by this. */
+img#sidebar-flag {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+main {
+    position: relative;
+    float: right;
+    width: 70%;
+    height: 100%;
+    margin-top: 50px;
+    padding-right: 20px;
+}
+section {
+    position: relative;
+    width: 100%;
+    margin-bottom: 50px;
+}
+img#main-section-flag {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
